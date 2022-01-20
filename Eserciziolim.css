@@ -1,0 +1,63 @@
+/* sfondo */
+body{
+  background-image: url("background.jpg");
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* logo */
+img{
+  height: 15%;
+  width: 15%;
+  display: block;
+  margin: 0 auto;
+}
+/* per centrare */
+header{
+  text-align: center;
+}
+#verde{
+  color: #2fc91c;
+}
+#sfondo-v{
+background-color:#2fc91c;
+height: 35px;
+padding-top: 12px;
+}
+article{
+  color: white;
+}
+#sfondo-a{
+   background-color: #ffbe52;
+   height: 20px;
+   width: 290px;
+   border-radius: 4px 4px 4px 4px;
+}
+#sfondo-b{
+   background-color: #20af0e;
+   height: 20px;
+   width: 455px;
+   border-radius: 4px 4px 4px 4px;
+
+}
+#sfondo-c{
+   background-color: #d94343;;
+   height: 20px;
+   width: 110px;
+   border-radius: 4px;
+
+}
+#trasparente{
+  /* 25% */
+  margin:2% 15% 20% 15% ;
+  background-color: rgb(0 0 0 / 50%);
+  border-radius: 12px;
+
+}
+
+#padding{
+  padding: 10% 5% 10% 5%;
+}
+strong{
+  font-size: 121%;
+}
